@@ -11,10 +11,5 @@ namespace GitManual.App02.Helpers
         {
             MessageBox.Show($"Text to write: {something}");
         }
-
-        public static void WriteSomethongElse()
-        {
-
-        }
     }
 }
