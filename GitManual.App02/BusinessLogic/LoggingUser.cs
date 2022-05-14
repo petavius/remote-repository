@@ -1,4 +1,6 @@
-﻿namespace GitManual.App02.BusinessLogic
+﻿using System;
+
+namespace GitManual.App02.BusinessLogic
 {
     internal class LoggingUser
     {
@@ -7,5 +9,7 @@
         public string LastName { get; set; }
         public string Password { get; set; }
         public bool IsActive { get; set; }
+
+        public DateTime? EmploymentDate { get; set; }
     }
 }
